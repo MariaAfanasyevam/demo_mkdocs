@@ -23,7 +23,7 @@ theme:
   search_index_only: true
 
 repo_name: "MariaAfanasyevam/demo_mkdocs"
-repo_url: https://github.com/MariaAfanasyevam/MkDocs
+repo_url: https://github.com/MariaAfanasyevam/demo_mkdocs
 
 markdown_extensions:
   - markdown.extensions.toc:
@@ -76,8 +76,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: "https://github.com/MariaAfanasyevam/MkDocs"
-
+      link: "https://github.com/MariaAfanasyevam/demo_mkdocs"
 extra_css:
   - "assets/css/custom.css"
 extra_javascript:
