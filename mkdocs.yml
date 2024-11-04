@@ -1,19 +1,19 @@
-site_name: Демо-сайт на GH и mkdocs
-site_url: 'https://Stepa86.github.io/demo_mkdocs/'
+site_name: Руководство по Моделированию Optimacros
+site_url: "https://Stepa86.github.io/demo_mkdocs/"
 
 theme:
-  name: 'material'
+  name: "material"
   favicon: assets/images/alpha-m-box.svg
   icon:
     logo: material/alpha-m-box
   language: ru
   palette:
     scheme: preference
-    primary: 'blue'
-    accent: 'blue'
+    primary: "blue"
+    accent: "blue"
   font:
-    text: 'Roboto'
-    code: 'Roboto Mono'
+    text: "Roboto"
+    code: "Roboto Mono"
   features:
     - navigation.tabs
     - search.highlight
@@ -22,43 +22,43 @@ theme:
   include_search_page: false
   search_index_only: true
 
-repo_name: 'Stepa86/demo_mkdocs'
-repo_url: https://github.com/Stepa86/demo_mkdocs
+repo_name: "MariaAfanasyevam/demo_mkdocs"
+repo_url: https://github.com/MariaAfanasyevam/MkDocs
 
 markdown_extensions:
-    - markdown.extensions.toc:
-       permalink: true
-       slugify: !!python/name:pymdownx.slugs.uslugify_cased
-       toc_depth: 2
-    - markdown.extensions.admonition
-    - markdown.extensions.attr_list
-    - markdown.extensions.codehilite:
-        linenums: true
-    - pymdownx.arithmatex
-    - pymdownx.betterem:
-        smart_enable: all
-    - pymdownx.caret
-    - pymdownx.critic
-    - pymdownx.details
-    - pymdownx.emoji:
-        emoji_index: !!python/name:pymdownx.emoji.twemoji
-        emoji_generator: !!python/name:pymdownx.emoji.to_svg
-    - pymdownx.inlinehilite
-    - pymdownx.keys
-    - pymdownx.magiclink
-    - pymdownx.mark
-    - pymdownx.smartsymbols
-    - pymdownx.superfences
-    - pymdownx.tasklist:
-        custom_checkbox: true
-        clickable_checkbox: true
-    - pymdownx.tilde
-    - markdown.extensions.def_list
-    - markdown.extensions.footnotes
-    - markdown.extensions.meta
-    - pymdownx.snippets:
-        check_paths: true
-    - pymdownx.tabbed
+  - markdown.extensions.toc:
+      permalink: true
+      slugify: !!python/name:pymdownx.slugs.uslugify_cased
+      toc_depth: 2
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      linenums: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.tilde
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.tabbed
 
 plugins:
   - search:
@@ -76,12 +76,10 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: 'https://github.com/Stepa86/demo_mkdocs'
-    - icon: fontawesome/brands/gitlab
-      link: 'https://gitlab.com/Stepa86/demo_mkdocs'
+      link: "https://github.com/MariaAfanasyevam/MkDocs"
+
 extra_css:
-  - 'assets/css/custom.css'
+  - "assets/css/custom.css"
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - assets/javascripts/tables.js
-
