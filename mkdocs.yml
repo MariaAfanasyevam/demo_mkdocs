@@ -1,5 +1,5 @@
 site_name: Руководство по Моделированию Optimacros
-site_url: "https://mariaafanasyevam.git.github.io/demo_mkdocs/"
+site_url: "https://mariaafanasyevam.github.io/demo_mkdocs/"
 
 theme:
   name: "material"
