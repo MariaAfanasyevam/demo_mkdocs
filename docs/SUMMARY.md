@@ -1,3 +1,3 @@
 # Все статьи
 
-- [Optimacros Руководство по Моделированию](Optimacros.md)
+- [Optimacros Руководство по Моделированию](index.md)
